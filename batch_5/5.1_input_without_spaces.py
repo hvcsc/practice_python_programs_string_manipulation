@@ -5,9 +5,10 @@ Input:         Juan Dela Cruz
 Output: Juan Dela Cruz"""
 
 #ask users input
-user = input("Enter your full name: ")
+user = input("Enter your full name (with several space characters at the beginning): ")
 
 #remove spaces
-no_space = user.lstrip()
+no_spaces = user.lstrip()
 
 #print input without the spaces at the beginning
+print(f"\nFull name: {no_spaces}")

@@ -5,5 +5,7 @@ Input:         Juan Dela Cruz
 Output: Juan Dela Cruz"""
 
 #ask users input
+user = input("Enter your full name: ")
+
 #remove spaces
 #print input without the spaces at the beginning

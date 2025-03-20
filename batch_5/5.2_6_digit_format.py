@@ -11,3 +11,4 @@ num = int(input("Enter a number (0-1000): "))
 num = f"{num:06}"
 
 #print 6 format digit
+print(f"\nOutput: {num}")

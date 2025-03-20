@@ -12,3 +12,4 @@ statement = input("Enter a statement: ")
 count = len(statement.split())
 
 #print count
+print(count)

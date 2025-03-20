@@ -5,5 +5,10 @@ Input: jUAn DEla CrUZ
 Output: juan_dela_cruz"""
 
 #ask name
+fullname = input("Enter your name in incorrect casing: ").lower()
+
 #change space to underscore
+snake = fullname.replace(" ", "_")
+
 #print snake case
+print(snake)

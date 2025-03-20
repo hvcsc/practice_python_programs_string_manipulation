@@ -6,5 +6,9 @@ Output: 14
 """
 
 #ask for statement
+statement = input("Enter a statement: ")
+
 #count words
+count = len(statement.split())
+
 #print count

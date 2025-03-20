@@ -5,4 +5,7 @@ Input: jUAn DEla CrUZ
 Output: Juan Dela Cruz"""
 
 #ask name then correct the casing
+fullname = input("Enter your full name in incorrect casing: ").title()
+
 #print the proper casing
+print(fullname)

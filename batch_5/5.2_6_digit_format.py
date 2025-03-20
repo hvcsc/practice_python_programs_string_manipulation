@@ -5,5 +5,9 @@ Input: 143
 Output: 000143"""
 
 #ask input
+num = int(input("Enter a number (0-1000): "))
+
 #change format
+num = f"{num:06}"
+
 #print 6 format digit

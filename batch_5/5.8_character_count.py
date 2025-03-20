@@ -5,5 +5,10 @@ Input: Juan Dela Cruz
 Output: 14"""
 
 #ask name
+fullname = input("Enter your fullname: ")
+
 #count character
+count = len(fullname)
+
 #print count
+print(count)

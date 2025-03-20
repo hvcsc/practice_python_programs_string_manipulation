@@ -8,4 +8,6 @@ Output: Juan Dela Cruz"""
 user = input("Enter your full name: ")
 
 #remove spaces
+no_space = user.lstrip()
+
 #print input without the spaces at the beginning

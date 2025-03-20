@@ -4,6 +4,8 @@ Example:
 Input: Juan Dela Cruz
 Output: JUAN DELA CRUZ"""
 
-#ask name
-#upper case
+#ask name and change to upper case
+fullname = input("Enter your full name: ").upper()
+
 #print input
+print(fullname)

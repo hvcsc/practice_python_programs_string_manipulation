@@ -5,4 +5,7 @@ Input: Juan Dela Cruz
 Output: juan dela cruz"""
 
 #ask name and change to lower case
+fullname = input("Enter your full name: ").lower()
+
 #print lower case name
+print(fullname)

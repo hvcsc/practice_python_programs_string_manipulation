@@ -5,4 +5,7 @@ Input: jUAn DEla CrUZ
 Output: JuaN deLA cRuz"""
 
 #ask name then reverse
+fullname = input("Enter your full name in incorrect casing: ").swapcase()
+
 #print the reverse casing
+print(fullname)
